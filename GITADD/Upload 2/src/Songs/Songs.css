@@ -1,0 +1,66 @@
+.Main {
+  display: inline;
+}
+.Songs {
+  min-height: 150px;
+  border: 1px solid white;
+  display: flex;
+  overflow-x: auto;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.Songs::-webkit-scrollbar {
+  width: 0px;
+  border-color: aquamarine;
+}
+div.items {
+  width: 150px;
+  height: 150px;
+  line-height: 110px;
+  text-align: center;
+  margin-right: 2px;
+  display: flex;
+
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: (1, 1fr);
+  grid-gap: 20px;
+
+  justify-content: center;
+  padding: 0px;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  list-style: none;
+  color: beige;
+  margin-top: 20px; */
+}
+.pitimages {
+  width: 150px;
+  height: 150px;
+  line-height: 110px;
+  text-align: center;
+  margin-right: 2px;
+  margin-left: 10px;
+}
+.songnames {
+  left: 50px;
+  color: black;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.Combine {
+  display: block;
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 2px;
+}
+
+.songhead {
+  margin: 0;
+  padding: 0;
+}
