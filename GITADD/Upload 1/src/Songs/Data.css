@@ -1,0 +1,29 @@
+.Artist-info {
+  padding: 25px;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, rgba(180, 134, 134, 0.986) 0%, white);
+  display: flex;
+  flex-wrap: nowrap;
+}
+.content {
+  padding-left: 20px;
+  -ms-flex-item-align: baseline;
+  align-self: flex-end;
+  font-size: large;
+  font-style: italic;
+}
+.thisimg {
+  border-radius: 10px;
+  width: 350px;
+  height: 250px;
+}
+
+@media screen and(min:300px) {
+  .Artist-info {
+    padding: 25px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(180, 134, 134, 0.986) 0%, white);
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

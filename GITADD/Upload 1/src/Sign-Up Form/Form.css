@@ -1,0 +1,136 @@
+/* .MainForm {
+  width: auto;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(1, 250px);
+  grid-template-rows: repeat(4, 30px);
+  grid-gap: 25px;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  background: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
+    center center/cover no-repeat;
+}
+
+.Items {
+  border-radius: 5px;
+  border: blue;
+  box-shadow: 5px 4px 12px rgb(0 0 0 / 15%);
+}
+
+.Items:hover {
+  border-radius: 5px;
+  box-shadow: 3px 5px rgb(121, 189, 209);
+}
+.btn button {
+  display: flex;
+  justify-content: center;
+  margin: 0 72.2px;
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: #0073b1;
+  background-color: #0073b1;
+  cursor: pointer;
+} */
+
+.wrapperr {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(48, 117, 196, 0.637);
+}
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 50px gray;
+}
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+h1.create {
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-family: lighter;
+}
+label {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  font-weight: lighter;
+}
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+.input::placeholder {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: 1px solid #cfcfcf;
+}
+input.eroor {
+  border: 1px solid red;
+}
+.errormessage {
+  color: red;
+  font-size: 0.75rem;
+  display: relative;
+}
+.firstname {
+  margin-right: 1%;
+}
+.lastname {
+  margin-left: auto;
+}
+.firstname,
+.lastname,
+.Email,
+.Password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.firstname,
+.lastname {
+  width: 48%;
+}
+
+.Email,
+.Password {
+  width: 100%;
+}
+.Account button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border-radius: 1px solid rgba(34, 180, 131, 0.89);
+  background-color: rgb(22, 114, 189);
+  padding: 5px;
+}
+
+.Account button:hover {
+  color: white;
+  background-color: rgba(34, 180, 131, 0.89);
+}
+small {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
